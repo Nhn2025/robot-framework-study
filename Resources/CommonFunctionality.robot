@@ -2,6 +2,7 @@
 Library     SeleniumLibrary
 
 *** Variables ***
+#&{user}    name=John    age=30    city=New York
 ${env}  uat
 &{url}  uat=https://www.ebay.com/
 
