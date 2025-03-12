@@ -17,9 +17,6 @@ Test Case to demonstrate mouse operations in Robot Framework
     Mouse Down On Link  xpath://*[@id='field25']/div/input
     Sleep   4s
 
-    Mouse Down On Link  xpath://*[@id='field25']/div/input
-    Sleep   4s
-
     Mouse Over  xpath://*[@id='field25']/div/input
     Sleep   4s
 
