@@ -18,6 +18,6 @@ Test Case to demonstrate implicit wait in Robot Framework
     Wait Until Location Contains    au
     Wait Until Location Does Not Contain    aud
 
-    Wait Until Element Contains     //xpath:[@id='abc']     Deployment Options
+    Wait Until Element Contains     //xpath:[@id='abc']     Deployment Options      timeout=10s     error=Found Text
 
     Close Browser
